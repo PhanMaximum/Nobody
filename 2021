@@ -1,0 +1,58 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Maximum Gui", "BloodTheme")
+
+--Main
+local Main = Window:NewTab("Scripts")
+
+local MainSection = Main:NewSection("Bedwars")
+MainSection:NewButton("Vape V4", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+MainSection:NewButton("JN HH GAMING 2.0", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PhanMaximum/JN-HH-GAMING-2.0/main/BEDWARS"))()
+end)
+
+local MainSection = Main:NewSection("Admin Commands")
+MainSection:NewButton("Infinite Yield", "", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local MainSection = Main:NewSection("Arsenal, ...")
+MainSection:NewButton("Owl Hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+end)
+MainSection:NewButton("Dark Hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+MainSection:NewButton("Get Key: https://darkhub-v4.maxt.church", "", function()
+    print("Clicked")
+end)
+
+local MainSection = Main:NewSection("Combat Warrior")
+MainSection:NewButton("Project Hook", "", function()
+    loadstring(game:HttpGet("https://projecthook.xyz/scripts/new-free.lua"))()
+end)
+
+local MainSection = Main:NewSection("Blox Fruit")
+MainSection:NewButton("Hoho Hub", "", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+local MainSection = Main:NewSection("Counter")
+MainSection:NewButton("FPS Counter", "", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PhanMaximum/FPS-Counter/main/EZ'))()
+end)
+MainSection:NewButton("Ping Counter", "", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/PhanMaximum/Ping-Counter/main/W'))()
+end)
+
+local MainSection = Main:NewSection("Build A Boat")
+MainSection:NewButton("Ruby Hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub", true))()
+end)
+
+--Other
+local Main = Window:NewTab("Credits")
+
+local MainSection = Main:NewSection("Made By PhanMax#7083")
